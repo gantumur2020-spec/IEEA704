@@ -1,14 +1,10 @@
-LEEA704 — СЕРВЕР ХОЛБОХ (заавал)
-================================
-Google Sheet «LEEA704_server» (ID 1NSFZKABAmJS-IXslfwvoackyZzN4sMFLVnN-mOg9wHo) ба Apps Script төсөл
-https://script.google.com/u/1/home/projects/1Wx55lL9AcsLPVtUtibFfqp_3rQSfVDQgYcJrPz1r3xxeVEEdLb7TI74y/edit
-бэлэн болсон (код хадгалагдсан). Үлдсэн алхам:
- 1. Төслийг нээж дээд мөрөөс setupOnce функцийг сонгоод ▶ Run → «Review permissions» → өөрийн must.edu.mn
-    бүртгэлээр зөвшөөрнө. (Багшийн нууц үг Script Properties-д хадгалагдаж, хуудсууд, БД хавтас үүснэ.)
- 2. Кодын эхний setupOnce функцийг (4 мөр) устгаад хадгална.
- 3. Deploy → New deployment → Web app → Execute as: Me, Who has access: Anyone → Deploy → URL-ийг хуулна.
- 4. index.html доторх  const API_URL = "";  мөрөнд тэр URL-ийг хашилт дотор тавина (эсвэл надад илгээвэл би оруулна).
- 5. Оюутны жагсаалтыг вэбийн «Багш → Оюутны дүн → Жагсаалт оруулах»-аар эсвэл LEEA704_Оюутан хуудсанд шууд оруулна.
+LEEA704 — СЕРВЕР
+================
+Google Sheet «LEEA704_server»: https://docs.google.com/spreadsheets/d/1NSFZKABAmJS-IXslfwvoackyZzN4sMFLVnN-mOg9wHo/edit
+Apps Script «LEEA704_server» (Web app, Anyone):
+https://script.google.com/macros/s/AKfycbyZjOlshoxCfh3vhpGcDWAGMnj3Yv8whiuSGDuGtGZoZQwKK3XJnbW8hdw5E603fA0ATA/exec
+index.html-д энэ хаяг орсон. Багшийн нууц үг Script Properties (PW)-д хадгалагдсан.
+Оюутны жагсаалтыг вэбийн «Багш → Оюутны дүн → Жагсаалт оруулах»-аар эсвэл LEEA704_Оюутан хуудсанд шууд оруулна.
 
 LEEA704 «Цахилгаан системийн тооцооны алгоритм, программчлал» (3 кр) — хичээлийн вэб (EEA709-ийн загвар, Номин өнгө)
 Хаяг: https://gantumur2020-spec.github.io/ILEEA704/
